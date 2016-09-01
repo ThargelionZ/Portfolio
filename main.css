@@ -1,3 +1,16 @@
+.nav {
+    background-color: orange;
+    height: 50px;
+    width: 100%;
+}
+.navi {
+    color: black;
+    font-family: Arial, "Times New Roman";
+    font-size: 20px;
+    padding-top: 13px;
+    padding-left: 20px;
+    width: 100%;
+}
 
 h1 {
     background-color: black;
@@ -18,8 +31,85 @@ h2 {
     text-align: center;
 }
 
+h3 {
+    color: #42c9e5;
+}
+
 body {
     background: radial-gradient(gray, black);
     height: 1000px;
     width: 100%;
 }
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.video-games {
+    margin: 0 auto;
+    position: absolute;
+    top: 73px;
+    width: 100%;
+    z-index: -1;
+}
+
+.overlay {
+    background-color: black;
+    height: 708px;
+    opacity: 0.5;
+    width: 100%;
+}
+
+.intro {
+    color: white;
+    font-family: Impact, Arial, "Times New Roman";
+    font-size: 30px;
+    margin-bottom: 30px;
+    width: 1000px;
+    z-index: 1;
+}
+
+.button {
+    background: linear-gradient(to bottom, #42c9e5, blue);
+    border: 1px solid blue;
+    border-radius: 15px;
+    height: 50px;
+    width: 200px;
+    z-index: 1;
+}
+
+.button:active {
+    background: linear-gradient(to top, #42c9e5, blue);
+}
+
+.button-p {
+    color: black;
+    font-family: Impact, Arial, "Times New Roman";
+    font-size: 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 40px;
+}
+
+.button-p:hover {
+    color: white;
+}
+
+.button-p:active {
+    color: grey;
+}
+
+.intro-content {
+    margin: 0 auto;
+    position: absolute;
+    top: 500px;
+    left: 450px;
+    width: 100%;
+}
+
