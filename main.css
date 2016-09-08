@@ -143,8 +143,7 @@ p {
     background-size: cover;
 }
 
-#programming {
-    border-radius: 10px;
+#programming-container {
     margin: 150px auto;
     padding: 20px;
     position: absolute;
@@ -176,6 +175,23 @@ p {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+#reading-container {
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 70%;
+    z-index: 1;
+}
+
+#reading-p {
+    color: white;
+    font-family: Futura, Arial, "Times New Roman";
+    font-size: 30px;
+    width: 100%;
+    z-index: 1;
 }
 
 #parallax3 {
