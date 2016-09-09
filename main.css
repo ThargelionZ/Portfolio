@@ -1,5 +1,9 @@
 /* this is main.css */
 
+/*--------------------------------------------
+*  The Basic Reset
+--------------------------------------------*/
+
 body, html {
     border: 0;
     height: 100%;
@@ -14,6 +18,10 @@ body, html, div, p {
     text-decoration: none;
     font-weight: normal;
 }
+
+/*--------------------------------------------
+*  Headers
+--------------------------------------------*/
 
 h1 {
     color: white;
@@ -31,6 +39,10 @@ h2 {
     padding: 15px;
 }
 
+/*--------------------------------------------
+*  Basic Elements
+--------------------------------------------*/
+
 a {
     color: inherit;
     text-decoration: none;
@@ -40,6 +52,10 @@ p {
     color: white;
 }
 
+/*--------------------------------------------
+*  Nav Bar
+--------------------------------------------*/
+
 #nav {
     background-color: black;
     margin: 0 auto;
@@ -48,6 +64,12 @@ p {
     text-align: center;
     width: 100%;
     z-index: 2;
+}
+
+.navs {
+    color: white;
+    display: inline;
+    height: 100%;
 }
 
 .navil, .navir {
@@ -61,13 +83,17 @@ p {
     color: gray;
 }
 
-.navil {
+.navil, .navs {
     margin-right: 40px;
 }
 
 .navir {
     margin-left: 40px;
 }
+
+/*--------------------------------------------
+*  Intro Section
+--------------------------------------------*/
 
 #parallax {
     background-image: url(Images/binary.jpg);
@@ -122,6 +148,10 @@ p {
     text-align: center;
 }
 
+/*--------------------------------------------
+*  Box Headers
+--------------------------------------------*/
+
 .box1 {
     background-color: gray;
     height: 150px;
@@ -133,6 +163,10 @@ p {
     height: 150px;
     width: 100%;
 }
+
+/*--------------------------------------------
+*  Programming Section
+--------------------------------------------*/
 
 #parallax1 {
     background-image: url(Images/computer-programming.jpeg);
@@ -168,9 +202,13 @@ p {
     margin-top: 50px;
 }
 
+/*--------------------------------------------
+*  Reading Section
+--------------------------------------------*/
+
 #parallax2 {
     background-image: url(Images/reading.jpg);
-    height: 1000px;
+    height: 1200px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -178,7 +216,7 @@ p {
 }
 
 #reading-container {
-    margin: 0 auto;
+    margin: 150px auto;
     position: absolute;
     left: 0;
     right: 0;
@@ -194,6 +232,36 @@ p {
     z-index: 1;
 }
 
+.images {
+    margin-top: 50px;
+    width: 100%;
+}
+
+#harry-potter {
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-right: 40px;
+    height: 300px;
+}
+
+#lord-of-the-rings {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+}
+
+#mistborn {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 320px;
+}
+
+/*--------------------------------------------
+*  Movies Section
+--------------------------------------------*/
+
 #parallax3 {
     background-image: url(Images/movies.jpg);
     height: 1000px;
@@ -203,6 +271,40 @@ p {
     background-size: cover;
 }
 
+#movies-container {
+    margin: 200px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 70%;
+    z-index: 1;
+}
+
+#movies-p {
+    color: white;
+    font-family: Futura, Arial, "Times New Roman";
+    font-size: 30px;
+    width: 100%;
+    z-index: 1;
+}
+
+#marvel {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 150px;
+}
+
+#inception {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/*--------------------------------------------
+*  Video Games Section
+--------------------------------------------*/
+
 #parallax4 {
     background-image: url(Images/video-games.png);
     height: 1000px;
@@ -211,3 +313,57 @@ p {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+#video-games-container {
+    margin: 150px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 70%;
+    z-index: 1;
+}
+
+#video-games-p {
+    color: white;
+    font-family: Futura, Arial, "Times New Roman";
+    font-size: 30px;
+    width: 100%;
+    z-index: 1;
+}
+
+#zelda {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+    margin-right: 100px;
+}
+
+#halo {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 300px;
+}
+
+/*--------------------------------------------
+*  Footer
+--------------------------------------------*/
+
+#footer {
+    background-color: black;
+    height: 50px;
+}
+
+#footer-p {
+    color: white;
+    float: left;
+    font-family: Futura, Arial, "Times New Roman";
+    padding-top: 15px;
+    padding-left: 20px;
+}
+
+#footer-copyright {
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
+
