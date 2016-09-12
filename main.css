@@ -26,7 +26,7 @@ body, html, div, p {
 h1 {
     color: white;
     display: inline;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     margin: 0;
     padding: 0;
 }
@@ -120,13 +120,13 @@ p {
 
 #intro {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 30px;
     width: 100%;
     z-index: 1;
 }
 
-#button1 {
+#button {
     background: linear-gradient(to bottom, #42c9e5, blue);
     border: 1px solid blue;
     border-radius: 15px;
@@ -136,16 +136,20 @@ p {
     z-index: 1;
 }
 
-#button1:active {
+#button:active {
     background: linear-gradient(to top, #42c9e5, blue);
 }
 
 #button-p {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 15px;
-    padding: 14px 0;
+    padding: 16px 0;
     text-align: center;
+}
+
+#button-p:hover {
+    color: black;
 }
 
 /*--------------------------------------------
@@ -189,7 +193,7 @@ p {
 
 #programming-p {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 30px;
     width: 100%;
     z-index: 1;
@@ -226,7 +230,7 @@ p {
 
 #reading-p {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 30px;
     width: 100%;
     z-index: 1;
@@ -282,7 +286,7 @@ p {
 
 #movies-p {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 30px;
     width: 100%;
     z-index: 1;
@@ -325,7 +329,7 @@ p {
 
 #video-games-p {
     color: white;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     font-size: 30px;
     width: 100%;
     z-index: 1;
@@ -356,7 +360,7 @@ p {
 #footer-p {
     color: white;
     float: left;
-    font-family: Futura, Arial, "Times New Roman";
+    font-family: Futura, Arial, Sans-Serif;
     padding-top: 15px;
     padding-left: 20px;
 }

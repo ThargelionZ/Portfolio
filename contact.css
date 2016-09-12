@@ -1,4 +1,4 @@
-/* this is resume.css */
+/* this is the contact.css file */
 
 /*--------------------------------------------
 *  The Basic Reset
@@ -94,13 +94,5 @@ p {
 --------------------------------------------*/
 
 body {
-    background: url(Images/escheresque_ste_@2X.png);
-}
-
-#resume-file {
-    margin-top: 20px;
-    margin-left: 19px;
-}
-#resume-file:hover {
-    text-decoration: underline;
+    background: url(Images/congruent_outline.png);
 }

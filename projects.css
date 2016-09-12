@@ -1,4 +1,4 @@
-/* this is resume.css */
+/* this is my projects.css file */
 
 /*--------------------------------------------
 *  The Basic Reset
@@ -81,11 +81,11 @@ p {
     color: gray;
 }
 
-.navil {
+.navil, .navs {
     margin-right: 40px;
 }
 
-.navir, .navs {
+.navir {
     margin-left: 40px;
 }
 
@@ -94,13 +94,5 @@ p {
 --------------------------------------------*/
 
 body {
-    background: url(Images/escheresque_ste_@2X.png);
-}
-
-#resume-file {
-    margin-top: 20px;
-    margin-left: 19px;
-}
-#resume-file:hover {
-    text-decoration: underline;
+    background: url(Images/low_contrast_linen_@2X.png);
 }
