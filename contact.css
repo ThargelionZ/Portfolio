@@ -35,8 +35,9 @@ h2 {
     border: 0;
     color: white;
     font-size: 75px;
-    margin: 0;
-    padding: 15px 0 0 15px;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
 }
 
 /*--------------------------------------------
@@ -55,6 +56,22 @@ p {
 /*--------------------------------------------
 *  Nav Bar
 --------------------------------------------*/
+
+.fa-home {
+    margin-right: 10px;
+}
+
+.fa-folder {
+    margin-right: 10px;
+}
+
+.fa-book {
+    margin-left: 10px;
+}
+
+.fa-pencil {
+    margin-left: 10px;
+}
 
 #nav {
     background-color: black;
@@ -95,4 +112,57 @@ p {
 
 body {
     background: url(Images/congruent_outline.png);
+}
+
+form {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+input {
+    display: block;
+}
+
+label {
+    color: white;
+    display: block;
+    font-family: Arial, "Times New Roman";
+    margin: 20px 0;
+}
+
+#first, #last {
+    height: 40px;
+    width: 25%;
+    padding-left: 10px;
+}
+
+#mail {
+    height: 40px;
+    width: 50%;
+    padding-left: 10px;
+}
+
+textarea {
+    display: block;
+    height: 150px;
+    width: 100%;
+}
+
+#submit {
+    color: white;
+    background: linear-gradient(to bottom, #42c9e5, blue);
+    border: 1px solid blue;
+    border-radius: 15px;
+    height: 50px;
+    width: 20%;
+    margin-top: 40px;
+}
+
+#submit:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#submit:active {
+    background: linear-gradient(to top, #42c9e5, blue);
 }

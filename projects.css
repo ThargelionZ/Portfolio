@@ -32,11 +32,12 @@ h1 {
 }
 
 h2 {
-    border: 0;
+    border-bottom: 1px solid white;
     color: white;
     font-size: 75px;
-    margin: 0;
-    padding: 15px 0 0 15px;
+    margin: 15px 0 0 20px;
+    padding: 0px;
+    width: 60%;
 }
 
 /*--------------------------------------------
@@ -50,11 +51,29 @@ a {
 
 p {
     color: white;
+    margin: 0;
+    padding: 0;
 }
 
 /*--------------------------------------------
 *  Nav Bar
 --------------------------------------------*/
+
+.fa-home {
+    margin-right: 10px;
+}
+
+.fa-folder {
+    margin-right: 10px;
+}
+
+.fa-book {
+    margin-left: 10px;
+}
+
+.fa-pencil {
+    margin-left: 10px;
+}
 
 #nav {
     background-color: black;
@@ -95,4 +114,41 @@ p {
 
 body {
     background: url(Images/low_contrast_linen_@2X.png);
+}
+
+/*--------------------------------------------
+*  Projects
+--------------------------------------------*/
+
+#container {
+    height: 700px;
+    margin-top: 20px;
+    overflow: hidden;
+    width: 60%;
+}
+
+.project {
+    float: left;
+    font-family: Arial, "Times New Roman";
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.project:hover {
+    text-decoration: underline;
+}
+
+.project:active {
+    color: gray;
+}
+
+#checkers {
+    border: 2px solid white;
+    border-radius: 10px;
+    float: right;
+    height: 300px;
+}
+
+#checkers:hover {
+    border: 5px solid white;
+    box-shadow: 10px 5px 15px black;
 }

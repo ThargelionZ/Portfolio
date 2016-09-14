@@ -3,16 +3,29 @@
 <head>
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="contact.css" type="text/css">
+    <script src="https://use.fontawesome.com/f4e2e2cf8c.js"></script>
     <meta charset="UTF-8">
     <title>Contact Me</title>
 </head>
 <body>
     <div id="nav">
-        <p class="navil"><a href="index.html">Home</a></p>
-        <p class="navil"><a href="projects.html">Projects</a></p>
+        <p class="navil"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></p>
+        <p class="navil"><a href="projects.html"><i class="fa fa-folder" aria-hidden="true"></i>Projects</a></p>
         <h1 title="The coolest guy ever"><a href="index.html">Myles Parker</a></h1>
-        <p class="navir"><a href="resume.html">Resume</a></p>
-        <p class="navs"><a href="contact.html"><strong>Contact Me</strong></a></p>
+        <p class="navir"><a href="resume.html">Resume<i class="fa fa-book" aria-hidden="true"></i></a></p>
+        <p class="navs"><a href="contact.html"><strong>Contact Me<i class="fa fa-pencil" aria-hidden="true"></i></strong></a></p>
     </div>
+    <h2>Contact Me</h2>
+    <form method="get">
+        <div id="firstNameDiv">
+            <label for="first">First Name</label><input class="text" type="text" name="firstName" id="first" required>
+        </div>
+        <div id="lastNameDiv">
+            <label for="last">Last Name</label><input class="text" type="text" name="lastName" id="last" required>
+        </div>
+        <label for="mail">Email</label><input class="text" type="email" name="yourEmail" id="mail" required>
+        <label for="text">What do you want to tell me?</label><textarea name="textarea" id="text" required></textarea>
+        <input type="submit" value="Submit" id="submit">
+    </form>
 </body>
 </html>

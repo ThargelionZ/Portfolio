@@ -56,6 +56,22 @@ p {
 *  Nav Bar
 --------------------------------------------*/
 
+.fa-home {
+    margin-right: 10px;
+}
+
+.fa-folder {
+    margin-right: 10px;
+}
+
+.fa-book {
+    margin-left: 10px;
+}
+
+.fa-pencil {
+    margin-left: 10px;
+}
+
 #nav {
     background-color: black;
     margin: 0 auto;
