@@ -3,6 +3,7 @@
 <head>
     <link rel="stylesheet" href="normalize.css" type="text/css">
     <link rel="stylesheet" href="contact.css" type="text/css">
+    <link rel="icon" href="Images/mp.png">
     <script src="https://use.fontawesome.com/f4e2e2cf8c.js"></script>
     <meta charset="UTF-8">
     <title>Contact Me</title>
@@ -18,12 +19,12 @@
     <h2>Contact Me</h2>
     <form method="get">
         <div id="firstNameDiv">
-            <label for="first">First Name</label><input class="text" type="text" name="firstName" id="first" required>
+            <label for="first">First Name</label><input class="text" type="text" name="firstName" id="first" placeholder="John"required>
         </div>
         <div id="lastNameDiv">
-            <label for="last">Last Name</label><input class="text" type="text" name="lastName" id="last" required>
+            <label for="last">Last Name</label><input class="text" type="text" name="lastName" id="last" placeholder="Smith"required>
         </div>
-        <label for="mail">Email</label><input class="text" type="email" name="yourEmail" id="mail" required>
+        <label for="mail">Email</label><input class="text" type="email" name="yourEmail" id="mail" placeholder="example@example.com"required>
         <label for="text">What do you want to tell me?</label><textarea name="textarea" id="text" required></textarea>
         <input type="submit" value="Submit" id="submit">
     </form>

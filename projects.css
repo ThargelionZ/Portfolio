@@ -32,12 +32,22 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1px solid white;
+    border: 0;
     color: white;
-    font-size: 75px;
-    margin: 15px 0 0 20px;
-    padding: 0px;
-    width: 60%;
+    font-size: 100px;
+    margin: 0;
+    padding: 15px;
+}
+
+h3 {
+    color: white;
+    font-family: Arial, "Times New Roman";
+    font-size: 100px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 /*--------------------------------------------
@@ -51,8 +61,6 @@ a {
 
 p {
     color: white;
-    margin: 0;
-    padding: 0;
 }
 
 /*--------------------------------------------
@@ -79,14 +87,17 @@ p {
     background-color: black;
     margin: 0 auto;
     padding: 10px 0;
+    position: fixed;
     text-align: center;
     width: 100%;
+    z-index: 2;
 }
 
 .navs {
     color: white;
     display: inline;
     height: 100%;
+    text-decoration: underline;
 }
 
 .navil, .navir {
@@ -109,46 +120,61 @@ p {
 }
 
 /*--------------------------------------------
-*  Body
+*  Box Headers
 --------------------------------------------*/
 
-body {
-    background: url(Images/low_contrast_linen_@2X.png);
+.box1 {
+    background-color: gray;
+    height: 150px;
+    width: 100%;
+}
+
+.box2 {
+    background-color: #333;
+    height: 150px;
+    width: 100%;
 }
 
 /*--------------------------------------------
-*  Projects
+*  Parallax
 --------------------------------------------*/
 
-#container {
-    height: 700px;
-    margin-top: 20px;
-    overflow: hidden;
-    width: 60%;
+#parallax {
+    background-image: url(Images/projects.jpg);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#parallax1 {
+    background-image: url(Images/Checkers.png);
+    height: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.project {
-    float: left;
-    font-family: Arial, "Times New Roman";
-    margin-top: 140px;
-    margin-left: 20px;
-}
-.project:hover {
-    text-decoration: underline;
+.overlay {
+    background-color: black;
+    height: 100%;
+    opacity: 0.5;
 }
 
-.project:active {
-    color: gray;
+#checkers-container {
+    margin: 300px auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 70%;
+    z-index: 1;
 }
 
-#checkers {
-    border: 2px solid white;
-    border-radius: 10px;
-    float: right;
-    height: 300px;
-}
-
-#checkers:hover {
-    border: 5px solid white;
-    box-shadow: 10px 5px 15px black;
+#checkers-p {
+    color: white;
+    font-family: Futura, Arial, Sans-Serif;
+    font-size: 30px;
+    width: 100%;
+    z-index: 1;
 }

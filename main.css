@@ -84,6 +84,7 @@ p {
 
 .navs {
     color: white;
+    text-decoration: underline;
     display: inline;
     height: 100%;
 }
