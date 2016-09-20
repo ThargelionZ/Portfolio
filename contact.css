@@ -126,6 +126,7 @@ form {
 input {
     border-radius: 10px;
     display: block;
+    text-transform: capitalize;
 }
 
 input:focus {
@@ -151,6 +152,7 @@ label {
     height: 40px;
     width: 50%;
     padding-left: 10px;
+    text-transform: none;
 }
 
 textarea {
@@ -165,7 +167,9 @@ textarea {
 textarea:focus {
     outline: none;
     border: 2px solid #699ceb;
+    box-sizing: border-box;
     box-shadow: 0 0 10px cyan;
+    padding: 9px 0 0 9px;
 }
 
 #submit {

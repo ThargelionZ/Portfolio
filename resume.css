@@ -125,6 +125,7 @@ body {
 #resume-img {
     border: 10px solid black;
     margin: 20px 0 0 20px;
+    transition: border 0.3s ease-out;
 }
 
 #resume-img:hover {
