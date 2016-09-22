@@ -198,7 +198,7 @@ textarea:focus {
 #footer {
     position: absolute;
     width: 100%;
-    bottom: 0px;
+    bottom: 0;
     background-color: black;
     height: 50px;
 }
