@@ -124,7 +124,7 @@ body {
 
 #resume-img {
     border: 10px solid black;
-    margin: 20px 0 0 20px;
+    margin: 20px 0 30px 20px;
     transition: border 0.3s ease-out;
 }
 
@@ -143,7 +143,6 @@ body {
 #footer {
     position: absolute;
     width: 100%;
-    bottom: 0px;
     background-color: black;
     height: 50px;
 }
