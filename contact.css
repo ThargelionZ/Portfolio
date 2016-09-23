@@ -118,7 +118,7 @@ body {
 form {
     background-color: black;
     border-radius: 10px;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     padding: 20px 40px 20px 20px;
     width: 1000px;
 }
@@ -198,7 +198,6 @@ textarea:focus {
 #footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
     background-color: black;
     height: 50px;
 }
